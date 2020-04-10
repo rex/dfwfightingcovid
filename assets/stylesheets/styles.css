@@ -38,3 +38,11 @@ nav.navbar a.navbar-brand:hover {
     padding: 6rem 2rem;
   }
 }
+
+body.page--landing .card-deck {
+  width: 100%;
+}
+
+body.page--landing .card-deck .card-footer {
+  text-align: center;
+}
