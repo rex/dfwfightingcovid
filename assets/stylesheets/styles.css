@@ -5,6 +5,10 @@ nav.navbar a.navbar-brand {
   text-decoration: none;
 }
 
+nav.navbar a.navbar-brand:hover {
+  color: var(--grey);
+}
+
 .jumbotron {
   background: url(../images/backgrounds/dallas-893343_1280.jpg);
   background-size: cover;
@@ -14,12 +18,23 @@ nav.navbar a.navbar-brand {
 
 .jumbotron h1 {
   color: var(--white);
-  font-size: 3em;
+  font-size: 5em;
   text-shadow: 0 1px 3px var(--dark);
 }
 
-@media (min-width: 576px) {
+.jumbotron--landing .container {
+  backdrop-filter: blur(2px);
+}
+
+.jumbotron--landing p {
+  color: var(--white);
+  text-shadow: 0 1px 3px var(--dark);
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+@media (min-width: 700px) {
   .jumbotron--landing {
-    padding: 8rem 2rem;
+    padding: 6rem 2rem;
   }
 }
