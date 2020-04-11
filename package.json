@@ -1,0 +1,16 @@
+{
+  "name": "dfwfightingcovid",
+  "version": "1.0.0",
+  "description": "Website for dfwfightingcovid.com",
+  "main": "index.html",
+  "repository": "git@github.com:rex/dfwfightingcovid",
+  "author": "Pierce Moore <me@prex.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-nunjucks-render": "^2.2.3",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.13.1"
+  }
+}

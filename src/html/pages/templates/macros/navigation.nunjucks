@@ -1,0 +1,37 @@
+{% macro active(activePage='index') %}
+<div class="row">
+  <div class="col-lg">
+    <nav class="navbar navbar-expand-md navbar-light sticky-top">
+      <a href="#" class="navbar-brand">
+        <img src="./images/dfwfightingcovid-logo-transparent.png" alt="#DFWFightingCovid" title="#DFWFightingCovid" width="64" height="64" />
+        #DFWFightingCovid
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item {% if activePage == 'index' %}active{% endif %}">
+            <a href="index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item {% if activePage == 'make' %}active{% endif %}">
+            <a href="#make" class="nav-link">Make</a>
+          </li>
+          <li class="nav-item {% if activePage == 'donate' %}active{% endif %}">
+            <a href="#donate" class="nav-link">Donate</a>
+          </li>
+          <li class="nav-item {% if activePage == 'resources' %}active{% endif %}">
+            <a href="#resources" class="nav-link">Resources</a>
+          </li>
+          <li class="nav-item {% if activePage == 'transparency' %}active{% endif %}">
+            <a href="#transparency" class="nav-link">Transparency</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</div>
+{% endmacro %}
