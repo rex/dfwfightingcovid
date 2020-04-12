@@ -1,4 +1,4 @@
-{% set current_page='index' %}
+{% set current_page='resources' %}
 {% extends "layout.nunjucks" %}
 {% block content %}
   <div class="container-fluid">
@@ -9,12 +9,12 @@
 
     <div class="row no-gutters">
       <div class="col-sm">
-        <div class="jumbotron jumbotron-fluid jumbotron--index">
+        <div class="jumbotron jumbotron-fluid">
           <div class="container">
-            <h1>DFW is fighting COVID-19 together.</h1>
-            <p class="text-white font-weight-bold">Face shields and PPE that protect doctors and nurses from COVID-19 airborne splatter are in short supply.</p>
+            <h1>Let's pool our resources.</h1>
+            <p class="text-white font-weight-bold">These are crazy times. Sharing knowledge and resources is more important than ever.</p>
 
-            <p class="text-white font-weight-bold">We are 3D-printing face shields to provide healthcare professionals with the protective gear that they need to stay safe!</p>
+            <p class="text-white font-weight-bold">Here is everything we think you might need or need to know about our efforts to create PPE.</p>
           </div>
         </div>
       </div>

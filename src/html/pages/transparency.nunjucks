@@ -1,0 +1,82 @@
+{% set current_page='transparency' %}
+{% extends "layout.nunjucks" %}
+{% block content %}
+  <div class="container-fluid">
+    {% include 'partials/under-construction-warning.nunjucks' %}
+
+    {% import "macros/navigation.nunjucks" as nav %}
+    {{ nav.active(current_page) }}
+
+    <div class="row no-gutters">
+      <div class="col-sm">
+        <div class="jumbotron jumbotron-fluid jumbotron--index">
+          <div class="container">
+            <h1>Let's be transparent.</h1>
+            <p class="text-white">There are people who run scams during tragedies.</p>
+
+            <p class="text-white font-weight-bold">We are not them. Here is our entire financial picture.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2>DONATIONS</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Type</th>
+          <th>Amount</th>
+          <th>Donator</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in transparency.donations %}
+        <tr>
+          <td>{{ item.date }}</td>
+          <td>{{ item.type }}</td>
+          <td>$ {{ item.amount }}</td>
+          <td>{{ item.donator }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+
+    <h2>EXPENSES</h2>
+
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Category</th>
+          <th>Amount</th>
+          <th>Company</th>
+          <th>Purpose</th>
+          <th>File</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in transparency.expenses %}
+        <tr>
+          <td>{{ item.date }}</td>
+          <td>{{ item.category }}</td>
+          <td class="text-monospace">$ {{ item.amount }}</td>
+          <td>{{ item.company }}</td>
+          <td>{{ item.purpose }}</td>
+          <td>
+            {% if item.file %}
+              <a href="transparency-docs/{{ item.file }}" target="_blank">View Receipt</a>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    {% include 'partials/footer.nunjucks' %}
+
+  </div> <!-- End main container-fluid -->
+
+{% endblock %}

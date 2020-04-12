@@ -1,0 +1,40 @@
+nav.navbar a.navbar-brand {
+  font-family: "Passion One", sans-serif;
+  font-size: 2.5em;
+  color: var(--dark);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--grey);
+  }
+}
+
+.jumbotron {
+  background: url(./images/backgrounds/dallas-893343_1280.jpg);
+  background-size: cover;
+  background-position-y: center;
+  text-align: center;
+  margin-left: -15px;
+  margin-right: -15px;
+
+  .container {
+    backdrop-filter: blur(2px);
+  }
+
+  h1 {
+    color: var(--white);
+    font-size: 5em;
+    text-shadow: 0 1px 3px var(--dark);
+  }
+
+  p {
+    color: var(--white);
+    text-shadow: 0 1px 3px var(--dark);
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+}
+
+footer {
+  margin-top: 30px;
+}

@@ -18,16 +18,16 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item {% if activePage == 'make' %}active{% endif %}">
-            <a href="#make" class="nav-link">Make</a>
+            <a href="make.html" class="nav-link">Make</a>
           </li>
           <li class="nav-item {% if activePage == 'donate' %}active{% endif %}">
-            <a href="#donate" class="nav-link">Donate</a>
+            <a href="donate.html" class="nav-link">Donate</a>
           </li>
           <li class="nav-item {% if activePage == 'resources' %}active{% endif %}">
-            <a href="#resources" class="nav-link">Resources</a>
+            <a href="resources.html" class="nav-link">Resources</a>
           </li>
           <li class="nav-item {% if activePage == 'transparency' %}active{% endif %}">
-            <a href="#transparency" class="nav-link">Transparency</a>
+            <a href="transparency.html" class="nav-link">Transparency</a>
           </li>
         </ul>
       </div>

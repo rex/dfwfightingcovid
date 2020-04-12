@@ -1,0 +1,41 @@
+{% set current_page='donate' %}
+{% extends "layout.nunjucks" %}
+{% block content %}
+  <div class="container-fluid">
+    {% include 'partials/under-construction-warning.nunjucks' %}
+
+    {% import "macros/navigation.nunjucks" as nav %}
+    {{ nav.active(current_page) }}
+
+    <div class="row no-gutters">
+      <div class="col-sm">
+        <div class="jumbotron jumbotron-fluid jumbotron--index">
+          <div class="container">
+            <h1>We need all the help we can get.</h1>
+            <p class="text-white font-weight-bold">The supplies and infrastructure required to make this happen are not cheap.</p>
+
+            <p class="text-white font-weight-bold">We know these are incredibly difficult times. But if you can spare even a dollar, it will make a difference.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm"></div>
+      <div class="col-sm-3">
+        Clicking this link will open a new tab and take you to PayPal where you can see all donations made so far as well as make a donation of your own.
+
+        <br><br>
+
+        <a href="https://paypal.me/pools/c/8obMmO3Sdp" class="btn btn-primary" target="_blank">
+          Make a Donation
+        </a>
+      </div>
+      <div class="col-sm"></div>
+    </div>
+
+    {% include 'partials/footer.nunjucks' %}
+
+  </div> <!-- End main container-fluid -->
+
+{% endblock %}

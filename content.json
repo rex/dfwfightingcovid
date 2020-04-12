@@ -1,0 +1,45 @@
+{
+  "transparency": {
+    "donations": [
+      {
+        "date": "2020-04-08",
+        "type": "paypal",
+        "amount": "50.00",
+        "donator": "Jonathan"
+      }
+    ],
+    "expenses": [
+      {
+        "date": "2020-04-08",
+        "category": "domains",
+        "amount": "14.90",
+        "company": "iwantmyname.com",
+        "purpose": "Purchased domain: dallasfightingcovid.com",
+        "file": "2020-APR-08--dallasfightingcovid-iwantmyname-INV1544459.pdf"
+      },
+      {
+        "date": "2020-04-08",
+        "category": "domains",
+        "amount": "29.80",
+        "company": "iwantmyname.com",
+        "purpose": "Purchased domains: dfwfightingcovid.com, dentonfightingcovid.com",
+        "file": "2020-APR-08--dfw+dentonfightingcovid-iwantmyname-INV1544462.pdf"
+      },
+      {
+        "date": "2020-04-10",
+        "category": "domains",
+        "amount": "14.90",
+        "company": "iwantmyname.com",
+        "purpose": "Purchased domain: texasfightingcovid.com",
+        "file": "2020-APR-10--texasfightingcovid-iwantmyname-INV1545397.pdf"
+      },
+      {
+        "date": "2020-04-08",
+        "category": "infrastructure",
+        "amount": "12.00",
+        "company": "Google Apps",
+        "purpose": "Added two Google Apps user accounts for DFWFightingCovid team members"
+      }
+    ]
+  }
+}
