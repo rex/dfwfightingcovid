@@ -1,0 +1,40 @@
+<div class="row justify-content-around">
+  <div class="card-deck index--links">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Have a 3D printer?</h5>
+        <p class="card-text">Download the files and sign up so we can coordinate distribution!</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeFPOillf1b9uf93YQtPPZtxE_fIg4rf5kZw-FyVlfYDJ1tGg/viewform" target="_blank" class="btn btn-primary">Start Making</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Volunteer!</h5>
+        <p class="card-text">We need all the help we can get. Do you have the time and willingness to help out? Tell us your skills!</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSed0Q7KfExjT-byk_boTbYowEURNQ-ApDGJAqqAcnoOo4zUJw/viewform" target="_blank" class="btn btn-primary">I'd like to help</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Request</h5>
+        <p class="card-text">We are actively distributing shields to health care professionals on the front lines of this crisis. Tell us what you need.</p>
+      </div>
+      <div class="card-footer">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSduDgepJnwEv9JzTv1QOuGItK5ly44KFPMrEM5TFkcyF1MN7w/viewform" target="_blank" class="btn btn-primary">Request Shields</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Help us buy supplies</h5>
+        <p class="card-text">Every dollar you can spare helps us protect doctors, nurses, and others who are putting themselves at risk to keep us safe!</p>
+      </div>
+      <div class="card-footer">
+        <a href="/donate" class="btn btn-primary">Chip in for Supplies</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -75,6 +75,8 @@
       </tbody>
     </table>
 
+    {% include 'partials/card-links.nunjucks' %}
+
     {% include 'partials/footer.nunjucks' %}
 
   </div> <!-- End main container-fluid -->
