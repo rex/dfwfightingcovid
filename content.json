@@ -6,6 +6,18 @@
         "type": "paypal",
         "amount": "50.00",
         "donator": "Jonathan"
+      },
+      {
+        "date": "2020-04-14",
+        "type": "paypal",
+        "amount": "50.00",
+        "donator": "David"
+      },
+      {
+        "date": "2020-04-08",
+        "type": "paypal",
+        "amount": "20.00",
+        "donator": "Anonymous"
       }
     ],
     "expenses": [
@@ -39,6 +51,13 @@
         "amount": "12.00",
         "company": "Google Apps",
         "purpose": "Added two Google Apps user accounts for DFWFightingCovid team members"
+      },
+      {
+        "date": "2020-04-15",
+        "category": "materials",
+        "amount": "99.56",
+        "company": "Amazon",
+        "purpose": "Purchased 4 1kg spools of SUNLU PETG filament"
       }
     ]
   }
