@@ -38,3 +38,11 @@ nav.navbar a.navbar-brand {
 footer {
   margin-top: 30px;
 }
+
+.card-deck {
+  width: 100%;
+
+  .card-footer {
+    text-align: center;
+  }
+}
